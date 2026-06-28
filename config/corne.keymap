@@ -16,7 +16,7 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <2 3>;
+            key-positions = <1 2>;
         };
 
         caps_word {
@@ -26,12 +26,7 @@
 
         delete {
             bindings = <&kp DELETE>;
-            key-positions = <32 33>;
-        };
-
-        shift {
-            bindings = <&sk LEFT_SHIFT>;
-            key-positions = <28 27>;
+            key-positions = <9 10>;
         };
 
         L_PAR {
