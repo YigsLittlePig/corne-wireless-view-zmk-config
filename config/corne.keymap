@@ -48,6 +48,36 @@
             bindings = <&sk LEFT_SHIFT>;
             key-positions = <28 27>;
         };
+
+        L_PAR {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <16 15>;
+        };
+
+        R_PAR {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <19 20>;
+        };
+
+        L_BRACE {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <3 4>;
+        };
+
+        R_BRACE {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <7 8>;
+        };
+
+        L_BRACK {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <27 28>;
+        };
+
+        R_BRACK {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <31 32>;
+        };
     };
 
     behaviors {
@@ -92,10 +122,10 @@
 
             display-name = "Base";
             bindings = <
-&kp TAB    &kp W         &kp L         &kp Y            &kp P            &kp B        &kp Z        &kp M             &kp O             &kp U         &kp SQT             &kp BSPC
-&kp LCTRL  &hml LSHFT C  &hml LCTRL R  &hml LEFT_ALT S  &hml LEFT_GUI T  &kp G        &kp F        &hmr RIGHT_GUI N  &hmr RIGHT_ALT E  &hmr RCTRL I  &hmr RIGHT_SHIFT A  &kp SEMI
-&sk LSHFT  &kp Q         &kp J         &kp V            &kp D            &kp K        &kp X        &kp H             &kp COMMA         &kp DOT       &kp FSLH            &kp ESC
-                                       &sk LGUI         &sl 1            &kp SPACE    &key_repeat  &sl 2             &sk RALT
+&kp TAB       &kp W         &kp L         &kp Y             &kp P            &kp B          &kp Z        &kp M             &kp O             &kp U         &kp SQT             &kp BSPC
+&sk LEFT_ALT  &hml LSHFT C  &hml LCTRL R  &hml LEFT_ALT S   &hml LEFT_GUI T  &kp G          &kp F        &hmr RIGHT_GUI N  &hmr RIGHT_ALT E  &hmr RCTRL I  &hmr RIGHT_SHIFT A  &kp SEMI
+&sk LSHFT     &kp Q         &kp J         &kp V             &kp D            &kp K          &kp X        &kp H             &kp COMMA         &kp DOT       &kp FSLH            &kp ESC
+                                          &sk LEFT_CONTROL  &sl 1            &lt 1 SPACE    &key_repeat  &sl 2             &sk RIGHT_SHIFT
             >;
         };
 
