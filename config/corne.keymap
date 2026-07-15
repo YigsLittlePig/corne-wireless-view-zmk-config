@@ -117,9 +117,9 @@
 
             display-name = "Base";
             bindings = <
-&kp TAB       &kp W         &kp L         &kp Y             &kp P            &kp B          &kp Z        &kp M             &kp O             &kp U         &kp SQT             &kp BSPC
-&sk LEFT_ALT  &hml LSHFT C  &hml LCTRL R  &hml LEFT_ALT S   &hml LEFT_GUI T  &kp G          &kp F        &hmr RIGHT_GUI N  &hmr RIGHT_ALT E  &hmr RCTRL I  &hmr RIGHT_SHIFT A  &kp SEMI
-&sk LSHFT     &kp Q         &kp J         &kp V             &kp D            &kp K          &kp X        &kp H             &kp COMMA         &kp DOT       &kp FSLH            &kp ESC
+&kp TAB       &kp Q         &kp W         &kp E             &kp R            &kp T          &kp Y        &kp U             &kp I             &kp O         &kp P                       &kp BSPC
+&sk LEFT_ALT  &hml LSHFT A  &hml LCTRL S  &hml LEFT_ALT D   &hml LEFT_GUI F  &kp G          &kp H        &hmr RIGHT_GUI J  &hmr RIGHT_ALT K  &hmr RCTRL L  &hmr RIGHT_SHIFT SEMICOLON  &kp SQT
+&sk LSHFT     &kp Z         &kp X         &kp C             &kp V            &kp B          &kp N        &kp M             &kp COMMA         &kp DOT       &kp FSLH                    &kp ESC
                                           &sk LEFT_CONTROL  &kp ENTER        &lt 1 SPACE    &key_repeat  &sl 2             &sk RIGHT_SHIFT
             >;
         };
@@ -165,15 +165,6 @@
             >;
 
             label = "bofa";
-        };
-
-        layer_4 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
-            >;
         };
     };
 
