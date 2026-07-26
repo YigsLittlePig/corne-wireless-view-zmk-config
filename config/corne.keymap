@@ -119,7 +119,7 @@
             bindings = <
 &mt LEFT_ALT TAB  &kp W         &kp L         &kp Y             &kp P            &kp B          &kp Z        &kp M             &kp O             &kp U         &kp SQT             &kp BSPC
 &mt LCTRL ESCAPE  &hml LSHFT C  &hml LCTRL R  &hml LEFT_ALT S   &hml LEFT_GUI T  &kp G          &kp F        &hmr RIGHT_GUI N  &hmr RIGHT_ALT E  &hmr RCTRL I  &hmr RIGHT_SHIFT A  &mt RIGHT_ALT SEMICOLON
-&sk LSHFT         &kp Q         &kp J         &kp V             &kp D            &kp K          &kp X        &kp H             &kp COMMA         &kp DOT       &kp FSLH            &kp RIGHT_SHIFT
+&sk LSHFT         &kp Q         &kp J         &kp V             &kp D            &kp K          &kp X        &kp H             &kp COMMA         &kp DOT       &kp FSLH            &sk RIGHT_SHIFT
                                               &sk LEFT_CONTROL  &sl 1            &lt 4 SPACE    &key_repeat  &sl 2             &sk LEFT_GUI
             >;
         };
